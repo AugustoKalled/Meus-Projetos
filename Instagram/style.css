@@ -1,0 +1,87 @@
+* {
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: arial, helvetica;
+    background-color:#FAFAFA; 
+}
+
+.instagram-clone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.coluna-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+.celular {
+    width: 70vh;     
+}
+
+.coluna-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 80px 10px 80px;
+    border: solid 1px #DBDBDB;
+    width: 40%;
+    border-radius: 7px;
+}
+
+.logo-instagram {
+    width: 180px;
+}
+
+.foto-do-perfil {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 110px;    
+
+}
+
+.entrar {
+    padding-bottom: 10px;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    background-color: #0095F6;
+    padding: 6px 25px;
+    color: white;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.continuar {
+    font-size: 13px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.trocar-conta{
+    color: #0095F6;
+}
